@@ -100,11 +100,10 @@ def main():
 
     print(f"Predict rating for (User,Item) = {(target_user,target_movie)}:{predicted_rating}")
     print(f"Top recommended movies for User {target_user}: {recommend_movie}")
-"""
+
 
 if __name__ == "__main__":
     main()
-
-        
-
+  
+"""
 
