@@ -87,7 +87,7 @@ class SBDRecommender:
     
 
 def main():
-    filepath = "/Users/nakagawaikuto/Desktop/class/social computing/u.data.txt"
+    filepath = ".data/u.data.txt"
     recommender = SBDRecommender(filepath)
     recommender.dataload()
     recommender.learn()
